@@ -1,0 +1,132 @@
+body{
+    background-color: #06101e;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    overflow:hidden;
+    size:1%;
+}
+html, body {
+    height: 100vh;
+}
+.page{
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.site-content {
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    background-position: center center;
+}
+.page img{
+    width: 105px;
+}
+.pbt{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.icon{
+    padding-left: 30px; 
+}
+.button{
+    white-space: nowrap;
+    padding-top: 10px;
+    background: transparent;
+    color:aqua;
+    text-shadow: 4px 4px 5px darkcyan;
+    border:1px solid transparent;
+}
+.button:hover{
+    color: aqua;
+    border:1px solid aqua;
+    border-radius: 15px;
+}
+.it{
+    border-left: 6px solid #00fffb;
+    color: #00ffff;
+    margin: 200px 50px;
+    font-family: 'Maitree', sans-serif;
+    font-size: 20px;
+    overflow: hidden;
+}
+.it img{
+    width: 200px;
+    margin-left:30px;
+}
+.yn{
+    color:aqua;
+    font-size: 70px;
+    margin: 25px 50px;
+    white-space: nowrap;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Maitree', serif;
+}
+
+.photos {
+    float: right;
+    width: 50%;
+}
+.info{
+    width: 40%;
+    float: left;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-links {
+    padding-right: 30px;
+}
+
+.card {
+    background: transparent !important;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 75px;
+    outline: black;
+    background-color: none(0, 0, 0, 0);
+    background-size: 100%, 100%;
+    border-radius: 0;
+    border: none
+}
+.carousel-control-prev-icon {
+    background-image: url(pred.png) !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url(sled.png) !important;
+   }
+   .carousel-indicators li {
+   background-color: aqua;
+   }
+background{
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width:80%;
+}.carousel-item img {
+    object-fit: contain;
+  }
+  background2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    width:100%;
+    blur(8px);
+  }
